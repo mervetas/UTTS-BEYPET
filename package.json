@@ -1,0 +1,18 @@
+{
+  "name": "utts-fullstack",
+  "version": "1.0.0",
+  "description": "UTTS Montaj Takip Sistemi - FullStack Projesi",
+  "scripts": {
+    "dev:backend": "cd backend && python app.py",
+    "dev:frontend": "cd frontend && npm start",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm run install:frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "keywords": ["flask", "react", "fullstack"],
+  "author": "Merve",
+  "license": "MIT"
+}
